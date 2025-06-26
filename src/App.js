@@ -11,7 +11,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router basename="/moviebookingapp"> {/* 👈 For GitHub Pages */}
+    <Router> {/* 👈 For GitHub Pages */}
       <div className="app-container">
         <Navbar />
 
