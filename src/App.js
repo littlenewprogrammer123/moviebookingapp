@@ -7,11 +7,9 @@ import BookingPage from './Components/BookingPage';
 import Footer from './Components/Footer';
 import './App.css';
 
-
-
 const App = () => {
   return (
-    <Router>
+    <Router basename="/moviebookingapp"> {/* 👈 IMPORTANT FIX */}
       <div className="app-container">
         <Navbar />
         <main>
