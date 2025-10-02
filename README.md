@@ -47,7 +47,7 @@ moviebookingapp/
 │ ├── src/main/resources/application.properties
 │ └── pom.xml
 │
-├── movie-app/ # React frontend
+├── frontend/ # React frontend
 │ ├── src/
 │ │ ├── components/
 │ │ ├── pages/
@@ -94,7 +94,7 @@ Frontend Setup (React)
 
 1.Navigate to frontend:
 
-cd ../movie-app
+cd ../frontend
 
 2.Install dependencies:
 
